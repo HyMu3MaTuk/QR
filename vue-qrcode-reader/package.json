@@ -1,0 +1,148 @@
+{
+  "_args": [
+    [
+      "vue-qrcode-reader",
+      "/home/timur"
+    ]
+  ],
+  "_from": "vue-qrcode-reader@latest",
+  "_hasShrinkwrap": false,
+  "_id": "vue-qrcode-reader@2.0.3",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/vue-qrcode-reader",
+  "_nodeVersion": "8.11.4",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/vue-qrcode-reader_2.0.3_1564594830098_0.495805454807847"
+  },
+  "_npmUser": {
+    "email": "niklas.gruhn@gmail.com",
+    "name": "gruhn"
+  },
+  "_npmVersion": "6.5.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "vue-qrcode-reader",
+    "raw": "vue-qrcode-reader",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/vue-qrcode-reader/-/vue-qrcode-reader-2.0.3.tgz",
+  "_shasum": "c28d296545a76b33bb8b4de95b6fe3ea2d2fe5f0",
+  "_shrinkwrap": null,
+  "_spec": "vue-qrcode-reader",
+  "_where": "/home/timur",
+  "author": {
+    "email": "niklas.gruhn@gmail.com",
+    "name": "Niklas Gruhn"
+  },
+  "bugs": {
+    "url": "https://github.com/gruhn/vue-qrcode-reader/issues"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "jsqr": "^1.2.0",
+    "webrtc-adapter": "^6.2.1"
+  },
+  "description": "A set of Vue.js components for detecting and decoding QR codes.",
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.0.0",
+    "babel-plugin-istanbul": "^4.1.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "commitizen": "^3.1.1",
+    "cross-env": "^3.1.3",
+    "cross-spawn": "^5.0.1",
+    "css-loader": "^0.26.1",
+    "cz-conventional-changelog": "^2.1.0",
+    "eslint": "^3.12.1",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-loader": "^1.6.1",
+    "eslint-plugin-html": "^1.6.0",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "extract-text-webpack-plugin": "^2.0.0-beta.4",
+    "husky": "^1.3.1",
+    "inject-loader": "^3.0.0",
+    "lint-staged": "^8.1.4",
+    "prettier": "1.16.4",
+    "semantic-release": "^15.9.9",
+    "vue-loader": "^10.0.0",
+    "vue-template-compiler": "^2.1.6",
+    "webpack": "^3.0.0",
+    "webpack-merge": "^1.1.2",
+    "worker-loader": "^2.0.0"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 29,
+    "integrity": "sha512-oKc3ZJt3OnWUu4k8DQA3PcSNklVSM6cXO6eWxc2hgpX/qs0PFAm834gQt4Q4ooE6BvtyRYCRMpjoBG9Ndx6VAw==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdQdKOCRA9TVsSAnZWagAA3XwP+wVAZmhQd6Wmx5e4ZQJC\nOLTLJyFZFoBSgvw/QcAHgQkvFHkn0ipKdvgsqSh5gtGufGIVpaK07owmUg1G\nT7jEhLlBfedoKeZnCo8L56nj0czR0c5qJ90WPWJmD79sslo5tnlXSfGCJz3F\n3FQI8nDuPv2EQYHOW2ghtkCZAwM/WE9qUe6F8AOUwp0WA5lZMUUadPtpv9+6\nx2NL5Mf64Khjf5chIMeu3FdZ85xaaPXFiEtfYZlFqFgqP8HCnLcs+TwyxJ6h\nmWqPJJjzSJjTPPjS9grn4uQGIpt6kAnVpKx0ae8wVf98uaARPmEyalhTQOSZ\nVEsaE0L7ACzNu1CjFZrH40dZ9l/k0SRDVG3aNdG8C7Hr0qwUQ84FkFI48rix\nm3JF4Oo8EzOentHdG4zo/B1s7B9UFQmABGhexyP5pkijJeuUpEUuWyHa3sYo\nVZQjhgCmmQEPj8XcE5umYK3xO7+T5WdVvQbZQXXKsNHH56rmaNOMM8YgSG5Y\nCIqbEXhCwfLKffVK1rXq5nYAjNQnbtkeI1QtgZCLzIFlhm9vk9xL1yvvTwX2\nAjdhYl/oqzjY9W9R1GWjarY2OwlIK8OcM6XPHfKaoWB4SlqhGCSpPM6mkw6U\naiH/PTizUrrJoneCujPTGcFDmOo9AVb3EVsV7TCGGSe1s52VcHjOe7lzNRD/\ncOTK\r\n=usbv\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "c28d296545a76b33bb8b4de95b6fe3ea2d2fe5f0",
+    "tarball": "https://registry.npmjs.org/vue-qrcode-reader/-/vue-qrcode-reader-2.0.3.tgz",
+    "unpackedSize": 858250
+  },
+  "gitHead": "d51344e748df62d91b9d422722099b3343df4261",
+  "homepage": "https://gruhn.github.io/vue-qrcode-reader",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook"
+    }
+  },
+  "keywords": [
+    "qrcode",
+    "qrcode-reader",
+    "qrcode-scanner",
+    "vue",
+    "vue-component",
+    "vuejs",
+    "webrtc"
+  ],
+  "license": "MIT",
+  "lint-staged": {
+    "*.{js,json,css,md,vue}": [
+      "git add",
+      "prettier --write"
+    ]
+  },
+  "main": "dist/vue-qrcode-reader.common.js",
+  "maintainers": [
+    {
+      "name": "gruhn",
+      "email": "niklas.gruhn@gmail.com"
+    }
+  ],
+  "module": "index.js",
+  "name": "vue-qrcode-reader",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gruhn/vue-qrcode-reader.git"
+  },
+  "scripts": {
+    "build": "npm run build:browser && npm run build:common",
+    "build:browser": "cross-env NODE_ENV=production webpack --config config/webpack.config.browser.js --progress --hide-modules",
+    "build:common": "cross-env NODE_ENV=production webpack --config config/webpack.config.common.js --progress --hide-modules",
+    "dev": "cross-env NODE_ENV=development webpack --config config/webpack.config.dev.js --progress --watch",
+    "lint": "eslint --ext .js,.vue src"
+  },
+  "unpkg": "dist/vue-qrcode-reader.browser.js",
+  "version": "2.0.3"
+}
