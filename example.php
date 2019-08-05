@@ -7,19 +7,19 @@
 <?php
         echo "hello world";
 ?>
-<script src="/QR/vue-qrcode-reader/dist/vue-qrcode-reader.browser.js"></script>
-<link href="/QR/vue-qrcode-reader/dist/vue-qrcode-reader.css" rel="stylesheet" />
+<script src="/vue-qrcode-reader/dist/vue-qrcode-reader.browser.js"></script>
+<link href="/vue-qrcode-reader/dist/vue-qrcode-reader.css" rel="stylesheet" />
 
 <div id="qr_code_app" class="row">
     <div class="qrcode_header">Поднесите чек к камере вашего устройства</div>
-    <img class="qrcode_img" src="/QR/index.png" />
+    <img class="qrcode_img" src="/index.png" />
     <div><qrcode-stream @decode="onDecode" @init="onInit"></qrcode-stream></div>
     <div class="qrcode_text1">Если у вас не получается отсканировать QR-код<br> попробуйте сделать то же самое с другого устройства</div>
-    <a href="/QR/vue-qrcode-reader/src/misc/errors.js"><div class="qrcode_helplink">Подробнее о проблемах со сканером</div></a>
+    <a href="/vue-qrcode-reader/src/misc/errors.js"><div class="qrcode_helplink">Подробнее о проблемах со сканером</div></a>
     
 	<div id="service_modal" class="reveal-modal qr_error_win" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
         <a class="close-reveal-modal" aria-label="Close">&#215;</a>
-        <img class="qr_err_icon" src="/QR/error_icon.png">
+        <img class="qr_err_icon" src="/error_icon.png">
         <div id="service_content">ОШИБКА</div>
     </div>
 	
